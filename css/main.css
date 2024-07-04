@@ -991,29 +991,24 @@ body {
 }
 .v26_96 {
   width: 100%;
-  height: 887px;
   background: url("../images/v26_96.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 150px;
-  left: 0px;
+  font-weight:700;
   overflow: hidden;
+  padding:12em;
 }
 .v26_97 {
   width: 100%;
-  height: 100%;
   background: url("../images/v26_97.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 1038px;
-  left: 0px;
   overflow: hidden;
+  padding:7rem;
 }
 .v26_98 {
   width: 100%;
@@ -1040,9 +1035,6 @@ body {
 .v26_100 {
   width: 636px;
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 1037px;
-  left: 218px;
   font-family: Poppins;
   font-weight: Bold;
   font-size: 64px;
@@ -1052,7 +1044,6 @@ body {
 .v26_101 {
   width: 504px;
   color: rgba(255,255,255,1);
-  position: absolute;
   top: 1876px;
   left: 177px;
   font-family: Poppins;
@@ -1077,19 +1068,16 @@ body {
 .v26_104 {
   width: 100%;
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 280px;
-  left: 220px;
   font-family: Poppins;
   font-weight: Bold;
   font-size: 64px;
   opacity: 1;
   text-align: center;
+  z-index: 10;
 }
 .v26_105 {
   width: 100%;
   color: rgba(255,255,255,1);
-  position: absolute;
   top: 593px;
   left: 220px;
   font-family: Poppins;
@@ -1097,6 +1085,7 @@ body {
   font-size: 32px;
   opacity: 1;
   text-align: center;
+  padding: 2em;
 }
 .v26_106 {
   width: 100%;
@@ -1166,28 +1155,23 @@ body {
   opacity: 1;
   text-align: left;
 }
+
+.button_outer {
+  padding: 0em 12em 12em 12em;
+}
+
 .v26_112 {
-  width: 854px;
-  height: 147px;
   background: url("../images/v26_112.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 756px;
-  left: 437px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
 .v26_113 {
-  width: 702px;
-  height: 145px;
   background: rgba(42,56,144,1);
   opacity: 1;
-  position: absolute;
-  top: 2px;
-  left: 76px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
@@ -1195,7 +1179,6 @@ body {
   overflow: hidden;
 }
 .v26_114 {
-  width: 854px;
   color: rgba(255,255,255,1);
   position: relative;
   top: 0px;
@@ -1207,29 +1190,35 @@ body {
   text-align: center;
 }
 .v26_115 {
-  width: 357px;
-  height: 655px;
   background: url("../images/v26_115.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
   top: 1225px;
   left: 251px;
   overflow: hidden;
+  text-align: center;
+  padding: 4em;
+}
+
+.collections {
+  display: flex;
+  padding: 0em;
+}
+
+.cell {
+  width: 23vw;
+  height: 100vh;
+  position: relative;
 }
 .v26_116 {
-  width: 352px;
-  height: 651px;
   background: url("../images/v26_116.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -1238,8 +1227,6 @@ body {
   overflow: hidden;
 }
 .v26_117 {
-  width: 356px;
-  height: 655px;
   background: rgba(0,0,0,1);
   opacity: 0.5;
   position: absolute;
@@ -1252,53 +1239,44 @@ body {
   overflow: hidden;
 }
 .v26_118 {
-  width: 307px;
+  width: 23vw;
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 302px;
-  left: 21px;
+  position: relative;
+  top: -50vh;
   font-family: Poppins;
   font-weight: Bold;
-  font-size: 24px;
+  font-size: 1.85vw;
   opacity: 1;
-  text-align: left;
+  text-align: center;
 }
 .v26_119 {
-  width: 318px;
+  width: 23vw;
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 413px;
-  left: 21px;
+  position: relative;
+  top: -40vh;
   font-family: Poppins;
   font-weight: Regular;
-  font-size: 24px;
+  font-size: 1.5vw;
   opacity: 1;
-  text-align: left;
+  text-align:center;
 }
 .v26_120 {
-  width: 357px;
-  height: 655px;
   background: url("../images/v26_120.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
   top: 1225px;
   left: 691px;
   overflow: hidden;
 }
 .v26_121 {
-  width: 352px;
-  height: 651px;
   background: url("../images/v26_121.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -1345,29 +1323,22 @@ body {
   text-align: left;
 }
 .v26_125 {
-  width: 380px;
-  height: 655px;
   background: url("../images/v26_125.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
   top: 1225px;
   left: 1132px;
   overflow: hidden;
 }
 .v26_126 {
-  width: 380px;
-  height: 651px;
   background: url("../images/v26_126.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -1416,7 +1387,6 @@ body {
 .v26_130 {
   width: 504px;
   color: rgba(255,255,255,1);
-  position: absolute;
   top: 1876px;
   left: 618px;
   font-family: Poppins;
@@ -1428,7 +1398,6 @@ body {
 .v26_131 {
   width: 504px;
   color: rgba(255,255,255,1);
-  position: absolute;
   top: 1876px;
   left: 1058px;
   font-family: Poppins;
