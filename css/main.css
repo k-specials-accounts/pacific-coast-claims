@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
@@ -11,6 +16,17 @@ footer {
   background-color: black;
   text-align: center;
   padding: 2em;
+}
+
+a:link, a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  color:yellowgreen;
 }
 
 .v26_6 {
@@ -999,6 +1015,18 @@ footer {
   padding: 3rem;
   text-align: center;
 }
+
+.v26_95 a:link, a:visited {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.v26_95 a:hover, a:active {
+  color:yellowgreen;
+}
+
 .v26_96 {
   width: 100%;
   background: url("../images/v26_96.png");
@@ -1009,6 +1037,7 @@ footer {
   font-weight:700;
   overflow: hidden;
   padding:12em;
+  display: ruby-text;
 }
 .v26_97 {
   width: 100%;
@@ -1047,8 +1076,6 @@ footer {
   text-align: left;
 }
 .v26_101 {
-  width: 504px;
-
   top: 1876px;
   left: 177px;
   font-family: Poppins;
@@ -1162,7 +1189,7 @@ footer {
 }
 
 .button_outer {
-  padding: 0em 12em 12em 12em;
+  padding: 0vh 5vw 0vh 5vw;
 }
 
 .v26_112 {
@@ -1193,6 +1220,7 @@ footer {
   font-size: 96px;
   opacity: 1;
   text-align: center;
+  padding:14px;
 }
 .v26_115 {
   background: url("../images/v26_115.png");
@@ -1203,7 +1231,7 @@ footer {
   top: 1225px;
   left: 251px;
   overflow: hidden;
-  text-align: center;
+  float: right;
   padding: 4em;
 }
 
@@ -1580,11 +1608,12 @@ footer {
 .icons {
   width:128px;
   height:128px;
+  padding:3px;
 }
 
 .head {
   display: block;
-  width: 205px;height: 100px;background-size: cover;transform: translate(2vw, -7vh);
+  width: 205px;height: 100px;background-size: cover;transform: translate(2vw, -155px);
 }
 
 .head2 {
@@ -1611,9 +1640,13 @@ footer {
 
   .head2 {
     display: inline-block;
-    transform: translate(0vw, -3vh);
+    transform: translate(0vw, -21px);
   }
 
+  .icons {
+    width:98px;
+    height: 98px;
+  }
   .v26_7 {
     text-align: center;
   }
@@ -1629,6 +1662,10 @@ footer {
     font-size: 34px;
   }
 
+  .v26_115 {
+    text-align: center;
+  }
+
   .v26_105 {
     font-size: 18px;
 }
@@ -1640,6 +1677,7 @@ footer {
 
 .collections {
   display: block;
+  float: left;
   padding: 0em;
 }
 
@@ -1679,11 +1717,11 @@ footer {
 @media screen and (max-width: 1400px) {
   
   .button_outer {
-    padding: 0em 11em 0em 11em;
+    padding: 0vh 5vw 0vh 5vw;
   }
 
   .v26_114 {
-    font-size: 57px;
+    font-size: 7vw;
   }
 
   .v26_105 {
